@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #555;
+}
+
+.nav-list{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.mega-menu{
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: gold;
+    height: 500px;
+    display: none;
+    justify-content: space-around;;
+}
+
+.mega-menu ul{
+    list-style-type: none;
+}
+
+.active:hover .mega-menu{
+    display: flex;
+}
